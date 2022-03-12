@@ -25,6 +25,14 @@
                                     <action selector="nextTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gZY-wP-gb3"/>
                                 </connections>
                             </button>
+
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="hGz-tv-euK">
+                                <rect key="frame" x="0.0" y="44" width="414" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="2lm-pM-Tqp"/>
+                                </constraints>
+                            </imageView>
+
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44l-yx-g9b">
                                 <rect key="frame" x="189" y="433" width="36.5" height="30"/>
                                 <constraints>
@@ -34,12 +42,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+
+                            <constraint firstItem="hGz-tv-euK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Old-xg-BjT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hGz-tv-euK" secondAttribute="trailing" id="g7R-dZ-1gR"/>
+                            <constraint firstItem="hGz-tv-euK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qKP-yo-w26"/>
+
                             <constraint firstItem="44l-yx-g9b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5qT-BZ-TcO"/>
                             <constraint firstItem="44l-yx-g9b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vzC-pI-omQ"/>
+
                         </constraints>
                     </view>
                 </viewController>
@@ -49,6 +64,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="img1" width="490" height="490"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
