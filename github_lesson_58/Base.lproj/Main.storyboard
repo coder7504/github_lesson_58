@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,19 +25,36 @@
                                     <action selector="nextTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gZY-wP-gb3"/>
                                 </connections>
                             </button>
+
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="hGz-tv-euK">
                                 <rect key="frame" x="0.0" y="44" width="414" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="2lm-pM-Tqp"/>
                                 </constraints>
                             </imageView>
+
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44l-yx-g9b">
+                                <rect key="frame" x="189" y="433" width="36.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fq9-8U-Uty"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+
                             <constraint firstItem="hGz-tv-euK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Old-xg-BjT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hGz-tv-euK" secondAttribute="trailing" id="g7R-dZ-1gR"/>
                             <constraint firstItem="hGz-tv-euK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qKP-yo-w26"/>
+
+                            <constraint firstItem="44l-yx-g9b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5qT-BZ-TcO"/>
+                            <constraint firstItem="44l-yx-g9b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vzC-pI-omQ"/>
+
                         </constraints>
                     </view>
                 </viewController>
