@@ -20,6 +20,9 @@ class SecondVC: UIViewController {
         
     }
 
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.view.backgroundColor = .red
+    }
    
 }
