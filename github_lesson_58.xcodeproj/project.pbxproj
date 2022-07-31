@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040133B127DCF4B6009B8A59 /* MavlonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040133AF27DCF4B6009B8A59 /* MavlonVC.swift */; };
+		040133B227DCF4B6009B8A59 /* MavlonVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040133B027DCF4B6009B8A59 /* MavlonVC.xib */; };
 		7EE471DE27DCE169008A7A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE471DD27DCE169008A7A25 /* AppDelegate.swift */; };
 		7EE471E027DCE169008A7A25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE471DF27DCE169008A7A25 /* SceneDelegate.swift */; };
 		7EE471E227DCE169008A7A25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE471E127DCE169008A7A25 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040133AF27DCF4B6009B8A59 /* MavlonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MavlonVC.swift; sourceTree = "<group>"; };
+		040133B027DCF4B6009B8A59 /* MavlonVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MavlonVC.xib; sourceTree = "<group>"; };
 		7EE471DA27DCE169008A7A25 /* github_lesson_58.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = github_lesson_58.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE471DD27DCE169008A7A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE471DF27DCE169008A7A25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				7EE471EB27DCE16B008A7A25 /* Info.plist */,
 				7EE471F127DCE1A1008A7A25 /* SecondVC.swift */,
 				7EE471F227DCE1A1008A7A25 /* SecondVC.xib */,
+				040133AF27DCF4B6009B8A59 /* MavlonVC.swift */,
+				040133B027DCF4B6009B8A59 /* MavlonVC.xib */,
 			);
 			path = github_lesson_58;
 			sourceTree = "<group>";
@@ -134,6 +140,7 @@
 				7EE471EA27DCE16B008A7A25 /* LaunchScreen.storyboard in Resources */,
 				7EE471E727DCE16B008A7A25 /* Assets.xcassets in Resources */,
 				7EE471F427DCE1A1008A7A25 /* SecondVC.xib in Resources */,
+				040133B227DCF4B6009B8A59 /* MavlonVC.xib in Resources */,
 				7EE471E527DCE169008A7A25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040133B127DCF4B6009B8A59 /* MavlonVC.swift in Sources */,
 				7EE471E227DCE169008A7A25 /* ViewController.swift in Sources */,
 				7EE471DE27DCE169008A7A25 /* AppDelegate.swift in Sources */,
 				7EE471F327DCE1A1008A7A25 /* SecondVC.swift in Sources */,
